@@ -1,2 +1,16 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+ /* -----------------HOME PAGE--------------------*/
+.jumbotron {
+    background-image: asset-url("cover.png");
+    background-size: cover;
+    height: 400px;
+}
+
+.jumbotron.painter {
+     background-color: #ffffff;
+     color: #fff;
+    border: 5px solid black;
+    border-radius: 25px !important ;
+}
