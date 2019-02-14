@@ -1,5 +1,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
  /* -----------------HOME PAGE--------------------*/
 .jumbotron {
@@ -18,17 +20,13 @@
 
 /*---------------------NAV BAR----------------------------*/
 
-.navbar-default .navbar-brand {
+.navbar .navbar-brand, .navbar .navbar-nav > li > a {
   color: white;
+  &:hover {
+      color: white;
+      opacity: 0.75;
+  }
 }
-.navbar-default .navbar-nav > li > a {
-  color: white;
-}
-.navbar-default .navbar-brand:hover {
-  color: white;
-  opacity: 0.75;
-}
-.navbar-default .navbar-nav > li > a:hover {
-  color: white;
-  opacity: 0.75;
-}
+
+
+ 
