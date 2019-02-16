@@ -3,30 +3,53 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
+/* ------------------GENERAL -----------------------------*/
+.white {
+    color: #fff;
+}
+
+
  /* -----------------HOME PAGE--------------------*/
 .jumbotron {
     background-image: asset-url("cover.png");
     background-size: cover;
     height: 400px;
+    border: 8px solid black;
+    border-radius: 25px !important;
 }
-
-.jumbotron.painter {
-     background-color: #ffffff;
-     color: #fff;
-    border: 5px solid black;
-    border-radius: 25px !important ;
+.body, .homebody {
+    background-color: black;
+}
+.white-page-title {
+    color: #fff !important;
 }
 
 
 /*---------------------NAV BAR----------------------------*/
 
 .navbar .navbar-brand, .navbar .navbar-nav > li > a {
-  color: white;
+  color: #cd7f32;
   &:hover {
       color: white;
       opacity: 0.75;
   }
 }
 
+.navbar-brand {
+    font-family: 'Open Sans', sans-serif;
+    //font-weight: 500;
+    color: #cd7f32 !important;
+}
 
- 
+// Toggle bar
+.navbar .navbar-toggle .icon-bar {
+    background-color: #cd7f32 !important;
+}
+
+
+/* ---------------------ABOUT PAGE-------------------------*/
+
+.well, .about {
+     border: 8px solid black;
+     border-radius: 25px;
+}
