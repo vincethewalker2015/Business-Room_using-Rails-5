@@ -7,7 +7,7 @@ class ContactsController < ApplicationController
     def create
        @contact = Contact.new(contact_params)
        if @contact.save
-           flash[:primary] = "Contact has been saved"
+           flash[:info] = "Message Sent"
            redirect_to contact_path(@contact)
        else
            flash.now[:danger] = "Error, Try again"
