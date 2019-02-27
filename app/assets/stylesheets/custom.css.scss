@@ -30,7 +30,7 @@
     background-color: black;
 }
 .white-page-title {
-    color: #fff !important;
+    color: #cd7f32 !important;
 }
 
 
@@ -83,4 +83,8 @@
 .alert, .alert-alert {
     background-color:#f8d7da;
     color:#721c24;
+}
+
+.alert-notice {
+    display: none;
 }
