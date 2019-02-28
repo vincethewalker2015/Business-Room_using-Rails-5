@@ -67,7 +67,32 @@
     border: 2px solid #cd7f32;
 }
 
+/*---------------------WELCOME PAGE------------------------*/
+.well, .welcome {
+    background-image: asset-url("cover.png");
+    background-size: cover;
+    height: 200px;
+    color: #cd7f32;
+}
 
+// Buttons
+    //button color
+.silver {
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.silver {
+   margin-top: 32px;
+}
+
+     //button color
+.gold {
+    background: #eacda3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #d6ae7b, #eacda3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
 
 /* ---------------------ABOUT PAGE-------------------------*/
