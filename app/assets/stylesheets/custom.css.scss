@@ -71,7 +71,7 @@
 .well, .welcome {
     background-image: asset-url("cover.png");
     background-size: cover;
-    height: 200px;
+    //height: 200px;
     color: #cd7f32;
 }
 
@@ -112,4 +112,19 @@
 
 .alert-notice {
     display: none;
+}
+
+// registration/new form
+
+.form-control {
+    background: #cd7f32;
+    border: 2px solid black !important;
+}
+
+.form-control::placeholder {
+    color: black;
+}
+
+.label-text {
+    font-size: 1.5em;
 }
