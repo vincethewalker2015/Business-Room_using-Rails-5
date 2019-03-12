@@ -4,8 +4,9 @@ class PagesController < ApplicationController
         
     end
     
-    def welcome
-        
+    def plan
+      @basic_plan = Plan.find(1)
+      @pro_plan = Plan.find(2)
     end
     
     def about
