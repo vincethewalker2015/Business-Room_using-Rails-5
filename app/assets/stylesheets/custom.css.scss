@@ -8,6 +8,20 @@
     color: #fff;
 }
 
+/*------------------BUTTONS -----------------------------*/
+.copper {
+    background: #cd7f32 ;
+    color: black !important;
+    border: 2px solid black;
+}
+
+.copper:hover {
+    background: #101010 ;
+    color: #cd7f32 !important;
+    border: 2px solid #cd7f32;
+}
+
+
 /* -----------------FLASH WARNINGS ----------------------*/
 // Error Messages
 .panel-title {
@@ -55,17 +69,7 @@
     background-color: #cd7f32 !important;
 }
 
-.copper {
-    background: #cd7f32 ;
-    color: black !important;
-    border: 2px solid black;
-}
 
-.copper:hover {
-    background: #101010 ;
-    color: #cd7f32 !important;
-    border: 2px solid #cd7f32;
-}
 
 /*---------------------WELCOME PAGE------------------------*/
 .well, .welcome {
