@@ -79,6 +79,10 @@
     color: #cd7f32;
 }
 
+ .img{
+     opacity: 0.2
+}
+
 // Buttons
     //button color
 .silver {
@@ -118,10 +122,11 @@
     display: none;
 }
 
-// registration/new form
+/*-----------------------FORMS -----------------------------*/
 
 .form-control {
     background: #cd7f32;
+    color: black;
     border: 2px solid black !important;
 }
 
