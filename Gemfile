@@ -9,6 +9,10 @@ gem 'sass-rails', '5.0.6'
 gem 'bootstrap-sass', '~> 3.3.7'
 # Use Font Awesome sass gem for adding icons
 gem 'font-awesome-sass', '4.6.2'
+# Use Carrierwave for Image Upload
+gem 'carrierwave', '1.2.2'
+# For Image manipulation using minumal memmory
+gem 'mini_magick', '4.7.0'
 # Use Hirb gem for better console data presentation
 gem 'hirb', '0.7.3'
 # Use Devise for User Authentication
@@ -53,6 +57,7 @@ end
 group :production do
   # Use the PostgreSQL gem for Heroku production servers
   gem 'pg', '0.18.4'
+  gem 'fog', '1.42'
 end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
