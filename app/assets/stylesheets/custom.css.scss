@@ -9,13 +9,13 @@
 }
 
 /*------------------BUTTONS -----------------------------*/
-.copper {
-    background: #cd7f32 ;
+.copper:hover {
+    background: #cd7f32 !important;
     color: black !important;
     border: 2px solid black;
 }
 
-.copper:hover {
+.copper {
     background: #101010 ;
     color: #cd7f32 !important;
     border: 2px solid #cd7f32;
@@ -71,10 +71,11 @@
 
 
 
-/*---------------------WELCOME PAGE------------------------*/
-.well, .welcome {
+/*---------------------PLAN PAGE------------------------*/
+ .welcome {
     background-image: asset-url("cover.png");
     background-size: cover;
+    border-radius: 10px;
     //height: 200px;
     color: #cd7f32;
 }
@@ -82,6 +83,7 @@
  .img{
      opacity: 0.2
 }
+
 
 // Buttons
     //button color
@@ -105,7 +107,7 @@
 
 /* ---------------------ABOUT PAGE-------------------------*/
 
-.well, .about {
+ .about {
      border: 8px solid black;
      border-radius: 25px;
 }
@@ -150,3 +152,26 @@
     border: 2px solid black;
 }
 
+
+/*--------------------------------PROFILE PAGE-----------------------------------------*/
+// Profile Pic
+ img {
+    border: 2px solid #cd7f32;
+    border-radius: 10px;
+    padding: 5px;
+    background: black;
+}
+
+ .well.profile-black-white {
+     background-color: #101010;
+     border: 5px solid #cd7f32;
+     border-radius: 25px;
+     color: #cd7f32 ;
+ }
+ 
+ .well.profile-black-white-thin {
+     background-color: #101010;
+     border: 2px solid #cd7f32;
+     border-radius: 25px;
+     color: #cd7f32 ;
+ }
