@@ -10,7 +10,7 @@ gem 'bootstrap-sass', '~> 3.3.7'
 # Use Font Awesome sass gem for adding icons
 gem 'font-awesome-sass', '4.6.2'
 # Use Carrierwave for Image Upload
-gem 'carrierwave', '1.2.2'
+gem 'carrierwave', '1.2.3'
 # For Image manipulation using minumal memmory
 gem 'mini_magick', '4.7.0'
 # Use Hirb gem for better console data presentation
