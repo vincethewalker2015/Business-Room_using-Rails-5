@@ -7,7 +7,7 @@ class Users::RegistrationsController < Devise::RegistrationsController
         if resource.plan_id == 2
           resource.save_with_subscription
         else
-          flash[:danger] = "An Error Happened Here"
+          #flash[:danger] = "An Error Happened Here"
           resource.save
         end
       end

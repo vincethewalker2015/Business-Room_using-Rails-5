@@ -10,7 +10,7 @@
                             <li>
                                 <div class="well profile-black-white-thin row <%= cycle('profile-black-white-thin-b', '') %>">
                                     <div class="col-sm-4 text-center">
-                                        <% if user.profile.picture %>
+                                        <% if user.profile.picture? %>
                                             <%= link_to user do %>
                                                 <%= image_tag user.profile.picture.url, class: "user-show-avatar" %>
                                             <% end %>
