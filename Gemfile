@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '5.0.0'
+gem 'rails', '5.2.3'
 # Use Puma as the app server
-gem 'puma', '3.4.0'
+gem 'puma'
 # Use SCSS for stylesheets
 gem 'sass-rails', '5.0.6'
 # Use Bootstrap for CSS Styling
@@ -10,25 +10,25 @@ gem 'bootstrap-sass', '~> 3.4.1'
 # Use Font Awesome sass gem for adding icons
 gem 'font-awesome-sass', '4.6.2'
 # Use Carrierwave for Image Upload
-gem 'carrierwave', '1.2.3'
+gem 'carrierwave'
 # For Image manipulation using minumal memmory
-gem 'mini_magick', '4.9.4'
+#gem 'mini_magick', '4.9.4'
 # Use Hirb gem for better console data presentation
 gem 'hirb', '0.7.3'
 # Use Devise for User Authentication
 gem 'devise', '4.7.1'
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '3.0.0'
+gem 'uglifier'
 # Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '4.2.1'
+gem 'coffee-rails'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 # Use jquery as the JavaScript library
-gem 'jquery-rails', '4.1.1'
+gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '5.0.0'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '2.5.0'
+gem 'jbuilder'
 # Use Stripe for payment processing
 gem 'stripe', '1.48.0'
 # Use Figaro for ENV variables
@@ -49,10 +49,10 @@ end
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console'
-  gem 'listen', '3.0.5'
+  gem 'listen'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
-  gem 'spring-watcher-listen', '2.0.0'
+  #gem 'spring-watcher-listen', '2.0.0'
 end
 group :production do
   # Use the PostgreSQL gem for Heroku production servers
@@ -61,4 +61,4 @@ group :production do
 end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-ruby '2.3.0'
+ruby '2.5.0'
